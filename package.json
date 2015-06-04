@@ -3,19 +3,8 @@
   "version": "0.1.0",
   "main": "main.js",
   "devDependencies": {
-    "autoprefixer-core": "^5.2.0",
-    "coffee": "^1.1.0",
-    "coffee-script": "^1.9.3",
-    "coffeescript-compiler": "^0.1.1",
-    "csswring": "^3.0.5",
     "gaze": "^0.5.1",
     "haml": "^0.4.3",
-    "jade": "^1.10.0",
-    "less": "^2.5.1",
-    "lodash": "^3.9.3",
-    "postcss": "^4.1.11",
-    "stylus": "^0.51.1",
-    "typescript-compiler": "^1.4.1-2",
-    "uglify-js": "^2.4.23"
+    "lodash": "^3.9.3"
   }
 }
