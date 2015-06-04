@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Haml GUI</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<div id="options">
+			<div id="menu">Options</div>
+			<div id="menuOptions">
+				<section id="compileOptions">
+					<h1>Compile To:</h1>
+					<div id="sameFolder"><span></span>Same Folder</div>
+					<div id="htmlFolder"><span></span>HTML Folder</div>
+					<div id="chooseFolder"><span></span><p>Choose</p><div class="directoryBox">...</div></div>
+				</section>
+				<section id="watchOptions">
+					<h1>Watch Folder? (Compile On Save)</h1>
+					<div id="watchFolder"><span></span><p>Yes</p><div class="directoryBox">...</div></div>
+				</section>
+				<section id="htmlOptions">
+					<h1>HTML Options</h1>
+					<div id="minifyHtml"><span></span><p>Minify HTML</p></div>
+				</section>
+			</div>
+			<section id="info">...</section>
+		</div>
+		<div id="holder">
+			<h1>Drag your file(s) here.</h1>
+		</div>
+		<script src="jquery.js"></script>
+		<script src="browser.js"></script>
+	</body>
+</html>

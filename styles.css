@@ -1,0 +1,152 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
+	-webkit-user-select: none;
+	cursor: default;
+	font-family: 'Arial', sans-serif;
+}
+
+#options {
+	color: #efefef;
+	padding: 6px 0px 6px 0px;
+	background: #521812;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+}
+
+#options div {
+	display: inline-block;
+	margin-left: 25px;
+	vertical-align: top;
+	line-height: 25px;
+	cursor: pointer;
+}
+
+#options div span {
+	position: relative;
+	display: inline-block;
+	content: '';
+	border: 3px solid #333;
+	height: 25px;
+	width: 25px;
+	margin-right: 10px;
+}
+
+#options div.selected span:before {
+	content: '';
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	right: 3px;
+	bottom: 3px;
+	background: #521812;
+}
+#options #menuOptions {
+	display: none;
+}
+
+#menuOptions {
+	position: absolute;
+	top: 60px;
+	left: 0;
+	background: #fff;
+	padding: 25px;
+	border-top: 5px solid #521812;
+}
+
+#menuOptions .directoryBox {
+	color: #fff;
+	display: inline-block;
+	float: right;
+	width: 250px;
+	height: 25px;
+	padding: 0 10px;
+	background: #521812;
+	margin-left: 10px;
+	font-size: 0.8em;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+#menuOptions p {
+	display: inline-block;
+	vertical-align: top;
+	line-height: 25px;
+	margin-right: 20px;
+}
+
+#menuOptions h1 {
+	color: #333;
+	padding-bottom: 0px;
+	margin-bottom: 10px;
+	border-bottom: 3px solid #333;;
+}
+
+#menuOptions h1:nth-of-type(2) {
+	margin-top: 20px;
+}
+
+#menuOptions div {
+	display: block;
+	color: #521812;
+	margin: 0 0 5px 0;
+}
+
+#menu {
+	padding: 5px 15px;
+}
+
+#menu:hover {
+	background: rgba(255,255,255,0.2);
+}
+
+#menuOptions div:last-of-type {
+	margin: 0;
+}
+
+#info {
+	color: #521812;
+	float: right;
+	display: inline-block;
+	background: #c0392b;
+	width: 350px;
+	height: 35px;
+	margin-right: 25px;
+	line-height: 35px;
+	padding: 0 10px;
+	text-align: right;
+}
+
+#holder {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: #c0392b;
+	text-align: center;
+	white-space: nowrap;
+	z-index: 0;
+}
+
+#holder:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+#holder h1 {
+	color: #521812;
+	font-size: 3em;
+	display: inline-block;;
+	vertical-align: middle;
+}

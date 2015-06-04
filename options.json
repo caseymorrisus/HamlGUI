@@ -1,0 +1,17 @@
+{
+    "compile": {
+        "sameFolder": true,
+        "htmlFolder": false,
+        "chooseFolder": {
+            "enabled": false,
+            "directory": "/Users/morris/Desktop/CoffeeGUITest/js"
+        }
+    },
+    "watch": {
+        "enabled": false,
+        "directory": "/Users/morris/Desktop/JadeGUITest/jade"
+    },
+    "html": {
+        "minify": false
+    }
+}
